@@ -38,7 +38,7 @@ INSERT into persona(id,nombre,edad) values ('2','Marianna Martin',44);
 INSERT into persona(id,nombre,edad) values ('3','Yolanda Martin',47);
 INSERT into persona(id,nombre,edad) values ('4','Marissa Hinoja',44);
 
-commit;
+COMMIT;
 
 SELECT * FROM persona;
 
