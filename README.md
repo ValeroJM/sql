@@ -47,4 +47,22 @@ SELECT COUNT(DISTINCT edad) from persona;
 SELECT * FROM persona WHERE edad > 46;
 
 SELECT * FROM persona ORDER BY edad DESC;
+
+SELECT * FROM PERSONA;
+
+SELECT * FROM PERSONA
+WHERE NOMBRE LIKE 'J%' OR NOMBRE LIKE 'Y%';
+
+SELECT * FROM PERSONA
+WHERE NOT EDAD=44;
+
+SELECT * FROM PERSONA
+WHERE EDAD NOT BETWEEN 44 AND 45;
+
+--Inserting Multiple rows in the database
+INSERT INTO PERSONA (ID, NOMBRE, EDAD)
+VALUES
+(5, 'Rory Hogan',18),
+(6, 'Angel Villena',48),
+(7, 'Jose Gregorio',47);
 ```
